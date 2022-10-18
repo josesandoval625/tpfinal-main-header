@@ -139,10 +139,35 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClInclude Include="CasafataDeTripulacionDeVuelo.h" />
+    <ClInclude Include="Cavion.h" />
+    <ClInclude Include="Cazafata.h" />
+    <ClInclude Include="CclaseDeServicio.h" />
+    <ClInclude Include="Ccomisario.h" />
+    <ClInclude Include="Ccopiloto.h" />
+    <ClInclude Include="Cejecutivo.h" />
+    <ClInclude Include="ClistaDePasajeros.h" />
+    <ClInclude Include="Cpasajero.h" />
     <ClInclude Include="Cpersona.h" />
+    <ClInclude Include="Cpiloto.h" />
+    <ClInclude Include="CprimeraClase.h" />
+    <ClInclude Include="Cturista.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="CasafataDeTripulacionDeVuelo.cpp" />
+    <ClCompile Include="Cavion.cpp" />
+    <ClCompile Include="Cazafata.cpp" />
+    <ClCompile Include="CclaseDeServicio.cpp" />
+    <ClCompile Include="Ccomisario.cpp" />
+    <ClCompile Include="Ccopiloto.cpp" />
+    <ClCompile Include="Cejecutivo.cpp" />
+    <ClCompile Include="ClistaDePasajeros.cpp" />
+    <ClCompile Include="Cpasajero.cpp" />
     <ClCompile Include="Cpersona.cpp" />
+    <ClCompile Include="Cpiloto.cpp" />
+    <ClCompile Include="CprimeraClase.cpp" />
+    <ClCompile Include="Cturista.cpp" />
+    <ClCompile Include="main.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
